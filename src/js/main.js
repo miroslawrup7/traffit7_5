@@ -72,8 +72,7 @@ const advancedContainer = document.querySelector(".advanced-container");
 // Send data from iframe to parent ///////////////////////////////////////////
 const setParentIframeHeight = () => {
     const iframeHeight = document.body.scrollHeight
-    window.parent.postMessage(iframeHeight, '*');
-    console.log(iframeHeight)
+    window.parent.postMessage(iframeHeight, 'https://miroslawrup7.github.io');
 }
 
 // =====================
