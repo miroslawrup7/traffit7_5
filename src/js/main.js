@@ -73,6 +73,7 @@ const advancedContainer = document.querySelector(".advanced-container");
 const setParentIframeHeight = () => {
     const iframeHeight = document.body.scrollHeight
     window.parent.postMessage(iframeHeight, '*');
+    console.log(iframeHeight)
 }
 
 // =====================
